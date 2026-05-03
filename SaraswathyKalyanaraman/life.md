@@ -26,7 +26,7 @@ title: Her Life Story
 - Husband: Kalyanaraman
 - Daughter: Umalakshmi Ravichandran
 - Son-in-Law: Ravichandran Padmanabhan
-- Grandchildren: Lokesh Krishna, Sai Ayshwarya Lakshmi
+- Grandchildren: Lokesh Krishna Ravichandran, Sai Ayshwarya Lakshmi Ravichandran
 - Marriage Date: June 20th
 - Family life:
 "She was an amazing mother, a wonderful mother-in-law, the most caring wife, and a blessing of a grandmother."
