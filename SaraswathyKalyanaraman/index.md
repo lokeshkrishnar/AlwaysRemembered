@@ -35,5 +35,3 @@ This is my grandmother's story.
 If you would like to contribute a story or media:
 
 [Submit a memory](PASTE_YOUR_GOOGLE_FORM_LINK)
-
-[Submit a memory here](PASTE_GOOGLE_FORM_LINK_HERE)
