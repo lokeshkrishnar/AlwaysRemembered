@@ -25,9 +25,9 @@ This is my grandmother's story.
 
 ## 🎙️ Voice & Videos
 
-### 🎙️ [Audio Memories](audio/)
+### 🎙️ [Audio Memories](audio.md)
 
-### 🎥 [Video Memories](videos/)
+### 🎥 [Video Memories](videos.md)
 
 ---
 
