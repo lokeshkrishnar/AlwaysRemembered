@@ -5,7 +5,7 @@ title: Jayalakshmi Padmanabhan
 
 # 🌸 Jayalakshmi Padmanabhan
 
-A place to remember her life, stories, family, and legacy.
+A place to remember her life, stories, family, and legacy..
 
 ---
 
