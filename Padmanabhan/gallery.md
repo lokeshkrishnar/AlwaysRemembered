@@ -7,7 +7,7 @@ title: Photo Gallery
 
 <div class="gallery">
 {% for file in site.static_files %}
-  {% if file.path contains '/SaraswathyKalyanaraman/assets/images/' %}
+  {% if file.path contains '/Padmanabhan/assets/images/' %}
     {% assign ext = file.extname | downcase %}
     {% if ext == '.jpg' or ext == '.jpeg' or ext == '.png' or ext == '.webp' or ext == '.gif' %}
       <div class="gallery-item">
