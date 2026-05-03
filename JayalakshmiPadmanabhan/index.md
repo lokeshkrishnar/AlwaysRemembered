@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Saraswathy Kalyanaraman
+title: Jayalakshmi Padmanabhan
 ---
 
-# Saraswathy Kalyanaraman
+# Jayalakshmi Padmanabhan
 
 A place to remember her life, stories, family, and legacy.
 
