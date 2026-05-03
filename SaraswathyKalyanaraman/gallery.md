@@ -6,6 +6,6 @@
 ![Family gathering](assets/images/All_combined_ai.jpeg)
 *All of us together*
 
-## 📸 Memories in Voice(audio.md)
+## 📸 [Memories in Voice](audio.md)
 
-## 📸 Memories in Video(videos.md)
+## 📸 [Memories in Video](videos.md)
