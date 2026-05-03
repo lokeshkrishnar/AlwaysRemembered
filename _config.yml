@@ -1,2 +1,7 @@
 title: Always Remembered
 theme: minima
+
+header_pages:
+  - SaraswathyKalyanaraman/index.md
+  - JayalakshmiPadmanabhan/index.md
+  - Padmanabhan/index.md
