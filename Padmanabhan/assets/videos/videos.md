@@ -5,6 +5,11 @@ title: Videos
 
 # 🎥 Videos
 
-<video width="400" controls>
-  <source src="assets/videos/video1.mp4" type="video/mp4">
-</video>
+## 🎥 A Special Memory
+
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/YmBDH4jXudA" 
+title="Thatha Video"
+frameborder="0" 
+allowfullscreen>
+</iframe>
