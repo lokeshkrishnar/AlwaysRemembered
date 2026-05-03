@@ -35,4 +35,11 @@ This is my grandmother's story.
 
 If you would like to contribute a story or media:
 
-### 💬 [Submit a memory](https://forms.gle/zWdCvqi7kW6xYWRV9)
+### 🎙️ Share memories and Upload photos / videos / voice notes
+👉 [Upload memories](https://forms.gle/zWdCvqi7kW6xYWRV9)
+
+### 📝 Share memories (Non gmail users)
+👉 [Share a memory](https://forms.gle/MvpuK43ya3tsWnH18)
+
+### 📱 Or send directly (easiest for voice notes)
+👉 Send via WhatsApp
