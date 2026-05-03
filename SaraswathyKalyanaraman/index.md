@@ -3,22 +3,36 @@ layout: default
 title: Saraswathy Kalyanaraman
 ---
 
-# Saraswathy Kalyanaraman
+# 🌸 Saraswathy Kalyanaraman
 
-A place to remember her life, stories, family, and legacy.
+A space to remember her life, stories, and legacy.
 
-## Her Life Story
+---
 
-Write her story here.
+## 📖 Explore Her Story
 
-## Memories
+### 🌿 [Her Life Story](life.md)
+### 💬 [Memories from Family & Friends](memories.md)
 
-Family and friends can share memories here.
+---
 
-## Photos
+## 📸 Gallery
 
-Photos will be added here.
+### 📸 [Photo Gallery](gallery.md)
 
-## Share a Memory
+---
+
+## 🎙️ Voice & Videos
+
+- [Audio Memories](audio.md)
+- [Videos](videos.md)
+
+---
+
+## 💬 Share a Memory
+
+If you would like to contribute a story or media:
+
+[Submit a memory](PASTE_YOUR_GOOGLE_FORM_LINK)
 
 [Submit a memory here](PASTE_GOOGLE_FORM_LINK_HERE)
