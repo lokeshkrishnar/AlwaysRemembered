@@ -33,6 +33,6 @@ This is my grandmother's story.
 
 ## 💬 Share a Memory
 
-If you would like to contribute a story or media:
+If you would like to contribute a story ora media:
 
 [Submit a memory](PASTE_YOUR_GOOGLE_FORM_LINK)
