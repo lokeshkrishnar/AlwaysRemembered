@@ -6,8 +6,8 @@ title: Her Life Story
 # 🌸 Saraswathy Kalyanaraman
 
 ## Early Life
-- Born in:
-- Village/City:Chennai
+- Born in: September 4th 1940
+- Village/City: Chennai
 - Parents:
 - Childhood memories:
 
@@ -18,15 +18,16 @@ title: Her Life Story
 ## Youth & Education
 - Schooling:
 - Interests:
-- Friends:
+- Friends: Saraswathy, Banumathy
 
 ---
 
 ## Marriage & Family
-- Spouse: Kalyanaraman
-- Children: Umalakshmi
-- Son-in-Law: Ravichandran
+- Husband: Kalyanaraman
+- Daughter: Umalakshmi Ravichandran
+- Son-in-Law: Ravichandran Padmanabhan
 - Grandchildren: Lokesh Krishna, Sai Ayshwarya Lakshmi
+- Marriage Date: June 20th
 - Family life:
 "She was an amazing mother, a wonderful mother-in-law, the most caring wife, and a blessing of a grandmother."
 ---
