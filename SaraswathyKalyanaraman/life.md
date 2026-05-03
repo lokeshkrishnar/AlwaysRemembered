@@ -42,8 +42,7 @@ title: Her Life Story
 ## Her Personality
 - Kindness:
 - Strength:
-- Habits (very important — makes it real)
-
+- Habits 
 ---
 
 ## Legacy
