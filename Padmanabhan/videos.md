@@ -15,14 +15,14 @@ allowfullscreen>
 </iframe>
 
 <iframe width="560" height="315" 
-src="https://www.youtube.com/embeded/cqCxBk_drCY" 
+src="https://www.youtube.com/embed/cqCxBk_drCY" 
 title="Thatha Video"
 frameborder="0" 
 allowfullscreen>
 </iframe>
 
 <iframe width="560" height="315" 
-src="https://www.youtube.com/embeded/YmBDH4jXudA" 
+src="https://www.youtube.com/embed/J7MdsF64tjg" 
 title="Thatha Video"
 frameborder="0" 
 allowfullscreen>
