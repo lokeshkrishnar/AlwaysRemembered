@@ -7,11 +7,11 @@ title: Her Life Story
 
 ## Early Life
 - Born in:
-- Village/City:
+- Village/City:Chennai
 - Parents:
 - Childhood memories:
 
-Write in simple sentences. Don’t worry about perfection.
+"She used to go to school in a plymouth car"
 
 ---
 
@@ -23,15 +23,17 @@ Write in simple sentences. Don’t worry about perfection.
 ---
 
 ## Marriage & Family
-- Spouse:
-- Children:
+- Spouse: Kalyanaraman
+- Children: Umalakshmi
+- Son-in-Law: Ravichandran
+- Grandchildren: Lokesh Krishna, Sai Ayshwarya Lakshmi
 - Family life:
-
+"She was an amazing mother, a wonderful mother-in-law, the most caring wife, and a blessing of a grandmother."
 ---
 
 ## Later Years
-- Where she lived:
-- Daily routines:
+- Where she lived: Chennai
+- Daily routines: She loved sitting in the balcony, loved listening to god songs, seeing serials.
 - What she loved:
 
 ---
@@ -41,10 +43,7 @@ Write in simple sentences. Don’t worry about perfection.
 - Strength:
 - Habits (very important — makes it real)
 
-Example:
-She always woke up before sunrise and made coffee for everyone.
-
 ---
 
 ## Legacy
-What people will remember her for.
+"The love she showered on our family is unmatched"
