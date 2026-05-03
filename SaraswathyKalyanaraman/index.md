@@ -5,7 +5,8 @@ title: Saraswathy Kalyanaraman
 
 # 🌸 Saraswathy Kalyanaraman
 
-A space to remember her life, stories, and legacy.
+An amazing human being, a kind and generous soul, a loving wife, the most devoted mother, a wonderful mother-in-law, and the most caring grandmother one could wish for.
+This is my grandmother's story.
 
 ---
 
