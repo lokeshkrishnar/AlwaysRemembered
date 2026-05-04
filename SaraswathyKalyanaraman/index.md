@@ -13,7 +13,12 @@ This is my grandmother's story.
 ## 📖 Explore Her Story
 
 ### 🌿 [Her Life Story](life.md)
+
+A journey through her life and legacy [Read more](life.md)
+
 ### 💬 [Memories from Family & Friends](memories.md)
+
+Stories shared by family and friends [View memories](memories.md)
 
 ---
 
@@ -21,13 +26,19 @@ This is my grandmother's story.
 
 ### 📸 [Photo Gallery](gallery.md)
 
+Moments captured across her life  [See photos](gallery.md)
+
 ---
 
 ## 🎙️ Voice & Videos
 
 ### 🎙️ [Audio Memories](audio.md)
 
+Share her life through the voice of her loved ones [See photos](audio.md)
+
 ### 🎥 [Video Memories](videos.md)
+
+Her life captured in film with her loved ones [See photos](videos.md)
 
 ---
 
