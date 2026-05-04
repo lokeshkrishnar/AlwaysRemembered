@@ -24,7 +24,7 @@ title: Video Memories
   {% endif %}
 {% endfor %}
 
-{% assign youtube_videos = site.data.youtube %}
+{% assign youtube_videos = site.data.padmanabhan_youtube %}
 {% if youtube_videos %}
   {% for video in youtube_videos %}
     <div class="video-card">
