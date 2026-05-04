@@ -8,8 +8,9 @@ title: Her Life Story
 ## Early Life
 - Born in: September 4th 1940
 - Village/City: Chennai
-- Parents:
-- Siblings: Krishnaveni (Elder Sister)
+- Parents: Govindasamy, Parvathi
+- Siblings: Krishnaveni (Elder Sister), Subramaniam (Brother in law)
+- Rasi: Mesha Rasi, Aswini natchatram
 - Childhood memories:
 
 "She used to go to school in a plymouth car"
@@ -17,9 +18,11 @@ title: Her Life Story
 ---
 
 ## Youth & Education
-- Schooling:
+- Schooling: T.Nagar school Saradha vidayala
+- College: SIET college (Stella marrys Womans college/Madras Christian College) PUC
+- Work: EB Central Office mount road, nungambakkam valvurkottam, accounts department
 - Interests: Kolam
-- Friends: Saraswathy, Banumathy
+- Friends: K.Saraswathy, Banumathy(Banu)
 
 ---
 
@@ -28,7 +31,7 @@ title: Her Life Story
 - Daughter: Umalakshmi Ravichandran
 - Son-in-Law: Ravichandran Padmanabhan
 - Grandchildren: Lokesh Krishna Ravichandran, Sai Ayshwarya Lakshmi Ravichandran
-- Marriage Date: June 20th
+- Marriage Date: June 20th 1965
 - Family life:
 "She was an amazing mother, a wonderful mother-in-law, the most caring wife, and a blessing of a grandmother."
 ---
@@ -37,7 +40,7 @@ title: Her Life Story
 - Where she lived: Chennai
 - Daily routines: She loved sitting in the balcony, loved listening to god songs, seeing serials.
 - What she loved:
-  - Food: Bulls Eye, Vadai, Poori masal
+  - Food: Bulls Eye, Vadai, Poori masal, Idli vada kari, Parotta kuruma, Badam halwa, Kaju Kathli, Motichoor ladu
 ---
 
 ## Her Personality
