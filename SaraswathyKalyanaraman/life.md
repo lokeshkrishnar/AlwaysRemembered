@@ -37,7 +37,7 @@ title: Her Life Story
 - Where she lived: Chennai
 - Daily routines: She loved sitting in the balcony, loved listening to god songs, seeing serials.
 - What she loved:
-
+  - Food: Bulls Eye
 ---
 
 ## Her Personality
