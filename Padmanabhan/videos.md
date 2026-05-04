@@ -81,28 +81,3 @@ title: Video Memories
   color: #5a4a42;
 }
 </style>
-
-
-## 🎥 A Special Memory
-
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/YmBDH4jXudA" 
-title="Thatha Video"
-frameborder="0" 
-allowfullscreen>
-</iframe>
-
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/cqCxBk_drCY" 
-title="Thatha Video"
-frameborder="0" 
-allowfullscreen>
-</iframe>
-
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/J7MdsF64tjg" 
-title="Thatha Video"
-frameborder="0" 
-allowfullscreen>
-</iframe>
-
