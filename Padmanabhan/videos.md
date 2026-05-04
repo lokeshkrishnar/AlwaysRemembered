@@ -12,10 +12,12 @@ title: Video Memories
     {% assign ext = file.extname | downcase %}
     {% if ext == '.mp4' or ext == '.webm' or ext == '.mov' %}
       <div class="video-card"
+           onmouseenter="playLocalPreview(this)"
+           onmouseleave="pauseLocalPreview(this)"
            onclick="openVideoModal('local', '{{ site.baseurl }}{{ file.path }}', '{{ file.name }}')">
-        
+
         <div class="video-wrapper">
-          <video preload="metadata" muted>
+          <video muted loop playsinline preload="metadata">
             <source src="{{ site.baseurl }}{{ file.path }}">
           </video>
           <div class="play-overlay">▶</div>
@@ -27,33 +29,33 @@ title: Video Memories
   {% endif %}
 {% endfor %}
 
-
 {% assign youtube_videos = site.data.padmanabhan_youtube %}
 {% if youtube_videos %}
   {% for video in youtube_videos %}
-    
     {% assign video_id = video.url | split: '/' | last %}
-    
+
     <div class="video-card"
+         data-youtube-id="{{ video_id }}"
+         onmouseenter="playYouTubePreview(this)"
+         onmouseleave="stopYouTubePreview(this)"
          onclick="openVideoModal('youtube', '{{ video.url }}', '{{ video.title }}')">
-      
-      <div class="video-wrapper">
-        <img src="https://img.youtube.com/vi/{{ video_id }}/hqdefault.jpg">
+
+      <div class="video-wrapper youtube-wrapper">
+        <img src="https://img.youtube.com/vi/{{ video_id }}/hqdefault.jpg" alt="{{ video.title }}">
+        <div class="youtube-preview-holder"></div>
         <div class="play-overlay">▶</div>
       </div>
 
       <p>{{ video.title }}</p>
     </div>
-
   {% endfor %}
 {% endif %}
 
 </div>
 
-<!-- MODAL -->
 <div id="videoModal" class="modal" onclick="closeVideoModal()">
   <span class="modal-close">&times;</span>
-  <div id="modalContent"></div>
+  <div id="modalContent" onclick="event.stopPropagation()"></div>
   <p id="modalCaption" class="modal-caption"></p>
 </div>
 
@@ -82,34 +84,45 @@ title: Video Memories
   background: #000;
 }
 
-/* Thumbnail (image or video preview) */
 .video-wrapper img,
-.video-wrapper video {
+.video-wrapper video,
+.video-wrapper iframe {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border: 0;
+  display: block;
 }
 
-/* Play button */
+.youtube-preview-holder {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
 .play-overlay {
   position: absolute;
   inset: 0;
+  z-index: 3;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 48px;
   color: white;
   background: rgba(0,0,0,0.3);
+  transition: opacity 0.25s ease;
 }
 
-/* Caption */
+.video-card:hover .play-overlay {
+  opacity: 0;
+}
+
 .video-card p {
   margin-top: 8px;
   font-size: 14px;
   color: #5a4a42;
 }
 
-/* MODAL */
 .modal {
   display: none;
   position: fixed;
@@ -121,18 +134,22 @@ title: Video Memories
   height: 100%;
   background: rgba(0, 0, 0, 0.9);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .modal video,
 .modal iframe {
-  max-width: 95%;
-  max-height: 80vh;
+  width: 95%;
+  max-width: 1000px;
+  height: 75vh;
   border-radius: 10px;
+  border: 0;
 }
 
 .modal-caption {
   color: #fff;
   margin-top: 12px;
+  font-size: 16px;
 }
 
 .modal-close {
@@ -152,6 +169,44 @@ function cleanName(name) {
     .replace(/_/g, " ");
 }
 
+function playLocalPreview(card) {
+  const video = card.querySelector("video");
+  if (video) {
+    video.currentTime = 0;
+    video.play();
+  }
+}
+
+function pauseLocalPreview(card) {
+  const video = card.querySelector("video");
+  if (video) {
+    video.pause();
+    video.currentTime = 0;
+  }
+}
+
+function playYouTubePreview(card) {
+  const videoId = card.dataset.youtubeId;
+  const holder = card.querySelector(".youtube-preview-holder");
+
+  if (!holder || holder.innerHTML.trim() !== "") return;
+
+  holder.innerHTML = `
+    <iframe
+      src="https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&controls=0&loop=1&playlist=${videoId}&modestbranding=1&rel=0"
+      allow="autoplay; encrypted-media"
+      allowfullscreen>
+    </iframe>
+  `;
+}
+
+function stopYouTubePreview(card) {
+  const holder = card.querySelector(".youtube-preview-holder");
+  if (holder) {
+    holder.innerHTML = "";
+  }
+}
+
 function openVideoModal(type, src, title) {
   const modal = document.getElementById("videoModal");
   const content = document.getElementById("modalContent");
@@ -160,10 +215,21 @@ function openVideoModal(type, src, title) {
   modal.style.display = "block";
 
   if (type === "youtube") {
-    content.innerHTML = `<iframe src="${src}?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+    const separator = src.includes("?") ? "&" : "?";
+    content.innerHTML = `
+      <iframe
+        src="${src}${separator}autoplay=1"
+        allow="autoplay; encrypted-media"
+        allowfullscreen>
+      </iframe>
+    `;
     caption.innerText = title;
   } else {
-    content.innerHTML = `<video controls autoplay><source src="${src}"></video>`;
+    content.innerHTML = `
+      <video controls autoplay>
+        <source src="${src}">
+      </video>
+    `;
     caption.innerText = cleanName(title);
   }
 }
