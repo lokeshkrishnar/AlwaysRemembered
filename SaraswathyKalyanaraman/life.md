@@ -9,6 +9,7 @@ title: Her Life Story
 - Born in: September 4th 1940
 - Village/City: Chennai
 - Parents:
+- Siblings: Krishnaveni (Elder Sister)
 - Childhood memories:
 
 "She used to go to school in a plymouth car"
@@ -17,7 +18,7 @@ title: Her Life Story
 
 ## Youth & Education
 - Schooling:
-- Interests:
+- Interests: Kolam
 - Friends: Saraswathy, Banumathy
 
 ---
